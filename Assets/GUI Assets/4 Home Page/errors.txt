@@ -1,0 +1,1 @@
+[2022-10-26 03:02:48] layer "Gear 88 - www.Shapes4FREE.com 1": Expected end of input but "1" found.

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015150427154",
+    "project_id": "secondlifewallpaper",
+    "storage_bucket": "secondlifewallpaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015150427154:android:90e4562e4df73a4e2b6ccb",
+        "android_client_info": {
+          "package_name": "com.iss.secondlifewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015150427154-o9qlskdvm1e3igh1n71j8i47lgbod2st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVtnhWkPhY3ABS3Ub5IIkWCwNkwF6Pdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015150427154-o9qlskdvm1e3igh1n71j8i47lgbod2st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

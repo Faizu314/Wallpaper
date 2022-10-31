@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">1015150427154</string>
+  <string name="google_storage_bucket" translatable="false">secondlifewallpaper.appspot.com</string>
+  <string name="project_id" translatable="false">secondlifewallpaper</string>
+  <string name="google_api_key" translatable="false">AIzaSyBEVtnhWkPhY3ABS3Ub5IIkWCwNkwF6Pdw</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBEVtnhWkPhY3ABS3Ub5IIkWCwNkwF6Pdw</string>
+  <string name="google_app_id" translatable="false">1:1015150427154:android:90e4562e4df73a4e2b6ccb</string>
+  <string name="default_web_client_id" translatable="false">1015150427154-o9qlskdvm1e3igh1n71j8i47lgbod2st.apps.googleusercontent.com</string>
+</resources>
