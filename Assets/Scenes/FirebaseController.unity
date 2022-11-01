@@ -651,12 +651,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117631286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -960, y: -1707.52, z: -25.599998}
+  m_LocalScale: {x: 2.56, y: 2.56, z: 2.56}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 197184177}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121972458
 GameObject:
@@ -1143,6 +1143,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1225484919}
+  - {fileID: 117631288}
+  - {fileID: 2067124282}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2469,8 +2471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -2393.0474}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -2156.5664}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &672115599
 MonoBehaviour:
@@ -3046,8 +3048,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -1288.564}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -1161.2281}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968461633
 MonoBehaviour:
@@ -6092,7 +6094,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1461401792
 GameObject:
@@ -7312,7 +7314,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1591296164}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: FacebookController, Assembly-CSharp
+        m_MethodName: loginBtnForFB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1591296164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8599,8 +8613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -920.40283}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -829.4486}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696821952
 MonoBehaviour:
@@ -9082,8 +9096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -1656.7251}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -1493.0076}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1784309684
 MonoBehaviour:
@@ -9374,8 +9388,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -2024.8862}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -1824.787}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879631734
 MonoBehaviour:
@@ -9588,8 +9602,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -184.08057}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -165.88972}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905803661
 MonoBehaviour:
@@ -10150,8 +10164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 960, y: -552.2417}
-  m_SizeDelta: {x: 1920, y: 368.16113}
+  m_AnchoredPosition: {x: 960, y: -497.6692}
+  m_SizeDelta: {x: 1920, y: 331.77945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1969093129
 MonoBehaviour:
@@ -10833,12 +10847,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067124280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -960, y: -1707.52, z: -25.599998}
+  m_LocalScale: {x: 2.56, y: 2.56, z: 2.56}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 197184177}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2139136348
 GameObject:
