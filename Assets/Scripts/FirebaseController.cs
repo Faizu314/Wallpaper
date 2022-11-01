@@ -294,19 +294,7 @@ public class FirebaseController : MonoBehaviour
 
 
 
-    void Update()
-    {
-        if (isSignIn)
-        {
-            if (!isSigned)
-            {
-                isSignIn = true;
-                UnityEngine.Debug.Log(user);
-                // Open mainscean
-            }
-        }
-    }
-
+    
 
 
     private static string GetErrorMessage(AuthError errorCode)
