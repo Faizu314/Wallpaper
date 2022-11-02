@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FirebaseController.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: ecd17a0e8e7704a4c9ff0dc3d8b0b9ea
+  - enabled: 1
+    path: Assets/Scenes/new.unity
+    guid: a495535611b6a2949b052deaedcc15c0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f986a5608f1f184192d8de652ed2108, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 503559bb652e221469d44d4e977505b7, type: 2}
