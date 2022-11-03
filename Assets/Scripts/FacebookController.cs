@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Facebook.Unity;
-using Firebase.Auth;
 using System;
-using UnityEngine.UI;
+using Firebase.Auth;
 
-
-
-public class Facebooklogin : MonoBehaviour
+public class Facebookcontroller : MonoBehaviour
 {
     void Awake()
     {
@@ -53,7 +50,7 @@ public class Facebooklogin : MonoBehaviour
         }
     }
 
-    public void Loginfb()
+    public void loginfb()
     {
         var perms = new List<string>() { "public_profile", "email" };
         FB.LogInWithReadPermissions(perms, AuthCallback);
@@ -80,17 +77,21 @@ public class Facebooklogin : MonoBehaviour
     }
 
     Firebase.Auth.FirebaseAuth auth;
-    private void loginviaFirebaseFacebook(String accessToken)
+
+    public void loginviaFirebaseFacebook(String accessToken)
     {
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+
         Firebase.Auth.Credential credential =
-            Firebase.Auth.FacebookAuthProvider.GetCredential(accessToken);
-        auth.SignInWithCredentialAsync(credential).ContinueWith(task => {
+    Firebase.Auth.FacebookAuthProvider.GetCredential(accessToken);
+        auth.SignInWithCredentialAsync(credential).ContinueWith(task =>
+        {
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInWithCredentialAsync was canceled.");
                 return;
             }
+
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInWithCredentialAsync encountered an error: " + task.Exception);
@@ -100,10 +101,9 @@ public class Facebooklogin : MonoBehaviour
             Firebase.Auth.FirebaseUser newUser = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
+
         });
     }
-
-
 
 
 

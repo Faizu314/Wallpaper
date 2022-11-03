@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R3CM80KDDQW",
         "name": "com.iss.secondlifewallpaper",
-        "processId": 19332,
+        "processId": 15104,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,18 @@
             "deviceId": "R3CM80KDDQW",
             "name": "com.iss.secondlifewallpaper",
             "processId": 19332,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CM80KDDQW",
+            "name": "com.iss.secondlifewallpaper",
+            "processId": 8853,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CM80KDDQW",
+            "name": "com.iss.secondlifewallpaper",
+            "processId": 15104,
             "exited": false
         }
     ],

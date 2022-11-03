@@ -17,6 +17,39 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/new.unity
     guid: a495535611b6a2949b052deaedcc15c0
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/AppRequests.unity
+    guid: c2250c9c5cf00425384401321f8dffb4
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/AppLinks.unity
+    guid: 4ac12dfde6570493291366d0ab3eb20d
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/AppEvents.unity
+    guid: 68ab940fa15e34433bff18301686b080
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/AccessTokenMenu.unity
+    guid: 67cb5b2387b8e4ec9b2fa69ad9510e9b
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/DialogShare.unity
+    guid: 190c345841ecc464e9a122f04369757e
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/GraphRequest.unity
+    guid: 444ae7ddf432b457a97bfe42021075e3
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/LogView.unity
+    guid: c07ff0bf6bea74c2eb681ac0cae44265
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/MainMenu.unity
+    guid: 7c38a8c9adc9d5c4b869612e4033ead8
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/Pay.unity
+    guid: 3ee189cdb21ea4bdb9d7022a0780c44c
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/TournamentsMenu.unity
+    guid: 6f8d688887086476cb9533793ffa1756
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/UploadToMediaLibrary.unity
+    guid: 6953b5ebad5134d32b0433745ec4a661
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f986a5608f1f184192d8de652ed2108, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 503559bb652e221469d44d4e977505b7, type: 2}
